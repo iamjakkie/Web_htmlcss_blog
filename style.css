@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    grid-template-areas: 
+    'nav-links accounts';
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    grid-gap: 40px;
+}
