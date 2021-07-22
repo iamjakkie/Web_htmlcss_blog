@@ -1,0 +1,47 @@
+input[type="email"]{
+    padding: 10px 20px 10px 20px;
+    outline: none;
+}
+::placeholder{
+    text-align: center;
+}
+.sub-btn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 70px 15px 70px;
+    margin-top: 5%;
+}
+.sub-btn:hover{
+    background-color: #a9a9a9;
+}
+.search{
+    margin-top: 10%;
+    text-align: center;
+    grid-area: search;
+}
+.search h5{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+input[type = "text"]{
+    padding: 5px;
+    width: 80%;
+    outline: none
+}
+.search-btn{
+    float: right;
+    padding: 5px 8px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.search-btn:hover{
+    background-color: #a9a9a9;
+}
+.caption{
+    font-family: fantasy;
+    font-style: italic;
+}
