@@ -68,6 +68,7 @@ img{
     background-color: #a9a9a9;
 }
 .right-content img{
+    display: grid;
     height: 200px;
     width: 200px;
     border-radius: 50%;
