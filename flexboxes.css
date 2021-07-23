@@ -1,0 +1,50 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    flex-shrink: 3;
+} 
+.flex-item {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.flex-item:hover {
+    font-weight: 900;
+}
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+}
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+.flex-container-topics{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    flex-shrink: 3;
+}
+.flex-item-topics{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.flex-item-topics:hover {
+    font-weight: 900;
+}
