@@ -18,3 +18,10 @@ footer{
     color: white;
     padding: 5px;
 }
+@media screen and (max-width: 1000px) {
+    .content-container {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
